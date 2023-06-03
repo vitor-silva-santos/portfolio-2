@@ -1,0 +1,63 @@
+.containerHabilidade {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  min-height: 100vh;
+  padding: 90px 0;
+  background-color: #0d1117;
+
+  .boxSkills {
+    display: grid;
+    width: 80%;
+    gap: 80px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 120px);
+
+    .skill {
+      display: flex;
+      height: 140px;
+      min-width: 120px;
+      padding: 0 10px;
+      border-radius: 0 25px 0 25px;
+      border-top: 3px solid #00d2df;
+      border-bottom: 3px solid #00d2df;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      background-color: #1a1e27;
+
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray;
+
+      &:hover {
+        -webkit-filter: none;
+        filter: none;
+        transform: scale(1.1);
+      }
+
+      .nameSkill {
+        text-align: center;
+        font-size: 15px;
+        text-shadow: 0.5px 0.5px 1px #00d2df;
+        font-weight: 400;
+        color: #b3b3b3;
+      }
+
+      img {
+        width: 64px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .boxSkills {
+      width: 90%;
+      gap: 50px;
+    }
+  }
+}

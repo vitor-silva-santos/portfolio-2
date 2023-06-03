@@ -1,0 +1,17 @@
+$colorBlue: #00d2df;
+
+.boxAnimation {
+  span {
+    color: $colorBlue;
+    font-weight: 700;
+    font-size: 50px;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 40px;
+    }
+
+    @media screen and (max-width: 800px) {
+      font-size: 32px;
+    }
+  }
+}

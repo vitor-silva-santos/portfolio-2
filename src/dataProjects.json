@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Instagram",
+    "photo": "image/projectsImages/instagram-project.png",
+    "description": "Este projeto foi feito com o intuito de aprimorar as habilidade no Front-end utilizando React.js, para estilização foi usado a biblioteca styled-components e foi trabalhado também no projeto a organização das pastas, ele foi feito no devClub com o professor Pedro. No projeto foi utilizado a api da PEXELS para pegar as imagens e usar como publicação.",
+    "url": "https://instagram-vitor-silva.netlify.app/",
+    "repositorio": "https://github.com/vitor-silva-santos/instagram-app",
+    "skills": [
+      {
+        "name": "React",
+        "url": "image/iconsSkills/react.png"
+      },
+      {
+        "name": "JavaScript",
+        "url": "image/iconsSkills/js.png"
+      },
+      {
+        "name": "Styled Components",
+        "url": "image/iconsSkills/styledComponents.png"
+      }
+    ]
+  },
+  {
+    "title": "Previsão do Tempo",
+    "photo": "image/projectsImages/previsaoTempo-project.png",
+    "description": "Projeto foi feito na Missão Você Programador do Zero utilizando a WEATHER API para pegar a previsão em tempo real da cidade, estado ou país",
+    "url": "https://vitor-silva-santos.github.io/previsao-do-tempo/",
+    "repositorio": "https://github.com/vitor-silva-santos/previsao-do-tempo",
+    "skills": [
+      {
+        "name": "HTML5",
+        "url": "image/iconsSkills/html-5.png"
+      },
+      {
+        "name": "CSS3",
+        "url": "image/iconsSkills/css-3.png"
+      },
+      {
+        "name": "JavaScript",
+        "url": "image/iconsSkills/js.png"
+      }
+    ]
+  },
+  {
+    "title": "Calculadora",
+    "photo": "image/projectsImages/calculadora-project.png",
+    "description": "Essa calculadora foi feita para práticar alguns conceitos de JavaScript antes de ir para o Node.",
+    "url": "https://vitor-silva-santos.github.io/calculadora/",
+    "repositorio": "https://github.com/vitor-silva-santos/calculadora",
+    "skills": [
+      {
+        "name": "HTML5",
+        "url": "image/iconsSkills/html-5.png"
+      },
+      {
+        "name": "CSS3",
+        "url": "image/iconsSkills/css-3.png"
+      },
+      {
+        "name": "JavaScript",
+        "url": "image/iconsSkills/js.png"
+      }
+    ]
+  },
+  {
+    "title": "Conversor de Moeda",
+    "photo": "image/projectsImages/convertMoney-project.png",
+    "description": "Esse projeto foi feito com o intuito de melhorar técnicas com JavaScript. O conversor no momento utiliza os valores das moedas de forma manual.",
+    "url": "https://vitor-silva-santos.github.io/real-converter/",
+    "repositorio": "https://github.com/vitor-silva-santos/real-converter",
+    "skills": [
+      {
+        "name": "HTML5",
+        "url": "image/iconsSkills/html-5.png"
+      },
+      {
+        "name": "CSS3",
+        "url": "image/iconsSkills/css-3.png"
+      },
+      {
+        "name": "JavaScript",
+        "url": "image/iconsSkills/js.png"
+      }
+    ]
+  },
+  {
+    "title": "Jogo da Velha",
+    "photo": "image/projectsImages/jogoDaVelha-project.png",
+    "description": "Esse projeto foi feito como desafio da faculdade para praticar conceitos de JavaScript.",
+    "url": "https://vitor-silva-santos.github.io/jogo-da-velha/",
+    "repositorio": "https://github.com/vitor-silva-santos/jogo-da-velha",
+    "skills": [
+      {
+        "name": "HTML5",
+        "url": "image/iconsSkills/html-5.png"
+      },
+      {
+        "name": "CSS3",
+        "url": "image/iconsSkills/css-3.png"
+      },
+      {
+        "name": "JavaScript",
+        "url": "image/iconsSkills/js.png"
+      }
+    ]
+  },
+  {
+    "title": "Easy Shopping - Landing Page",
+    "photo": "image/projectsImages/easyShopping-project.png",
+    "description": "Projeto foi feito no devClub com o intuito de aprender sobre responsividade, a aplicação funciona tanto em desktop quanto para mobile",
+    "url": "https://vitor-silva-santos.github.io/project-easy-shopping/",
+    "repositorio": "https://github.com/vitor-silva-santos/project-easy-shopping",
+    "skills": [
+      {
+        "name": "HTML5",
+        "url": "image/iconsSkills/html-5.png"
+      },
+      {
+        "name": "CSS3",
+        "url": "image/iconsSkills/css-3.png"
+      }
+    ]
+  },
+  {
+    "title": "Cardápio - Ricky Sushi",
+    "photo": "image/projectsImages/rickySushi-project.png",
+    "description": "Meu primeiro projeto colocando em prática alguns conceitos de HTML e CSS. Com ele consegui criar algumas noções de estruturar o projeto antes de colocar em prática. O site foi criado como desafio de pegar algum comércio da região e criar um site para ele.",
+    "url": "https://vitor-silva-santos.github.io/restaurante-ricky-sushi/",
+    "repositorio": "https://github.com/vitor-silva-santos/restaurante-ricky-sushi",
+    "skills": [
+      {
+        "name": "HTML5",
+        "url": "image/iconsSkills/html-5.png"
+      },
+      {
+        "name": "CSS3",
+        "url": "image/iconsSkills/css-3.png"
+      }
+    ]
+  }
+]

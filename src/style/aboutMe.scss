@@ -1,0 +1,169 @@
+$textColor: #b3b3b3;
+
+.containerAboute {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  gap: 100px;
+  padding: 90px;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0d13;
+
+  .imgPerson {
+    margin-top: 10px;
+    width: 350px;
+    max-width: 100%;
+  }
+
+  .boxInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    gap: 30px;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      gap: 20px;
+
+      p {
+        color: #b3b3b3;
+
+        &:first-of-type {
+          font-size: 26px;
+        }
+
+        &:last-of-type {
+          font-size: 18px;
+          line-height: 25px;
+          letter-spacing: 1px;
+          text-align: justify;
+        }
+      }
+    }
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      height: 60px;
+      width: 230px;
+      cursor: pointer;
+      border-radius: 50px;
+      font-size: 18px;
+      color: #00d2df;
+      background-color: transparent;
+      border: 1px solid #00d2df;
+
+      &:hover {
+        background-color: rgba(#00d2df, 0.2);
+        transform: scale(1.05);
+        text-decoration: underline;
+      }
+      .iconDownload {
+        width: 24px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    gap: 50px;
+
+    .boxInfo {
+      .content {
+        p {
+          &:first-of-type {
+            font-size: 24px;
+          }
+
+          &:last-of-type {
+            font-size: 16px;
+          }
+        }
+      }
+
+      button {
+        font-size: 16px;
+
+        .iconDownload {
+          width: 22px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    gap: 30px;
+    padding: 50px;
+
+    .boxInfo {
+      .content {
+        p {
+          &:first-of-type {
+            font-size: 26px;
+          }
+
+          &:last-of-type {
+            font-size: 18px;
+          }
+        }
+      }
+
+      button {
+        font-size: 17px;
+
+        .iconDownload {
+          width: 23px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    padding: 90px 15px;
+    gap: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .imgPerson {
+      display: none;
+    }
+
+    .boxInfo {
+      gap: 40px;
+      .content {
+        padding-top: 0;
+
+        h2 {
+          text-align: center;
+        }
+
+        p {
+          &:first-of-type {
+            font-size: 28px;
+          }
+
+          &:last-of-type {
+            font-size: 20px;
+            letter-spacing: 0.5px;
+            word-spacing: 3px;
+            text-align: start;
+          }
+        }
+      }
+
+      button {
+        font-size: 17px;
+
+        .iconDownload {
+          width: 23px;
+        }
+      }
+    }
+  }
+}

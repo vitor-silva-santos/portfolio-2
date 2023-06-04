@@ -14,7 +14,7 @@ export const Header = () => {
       <div className="containerInfo">
         <p>
           <span>&#9001;strong&#9002;</span>
-          <strong> Seja bem-vindo </strong>
+          <strong>Seja bem-vindo</strong>
           <span>&#9001;&frasl;strong&#9002; </span>
         </p>
         <h1>

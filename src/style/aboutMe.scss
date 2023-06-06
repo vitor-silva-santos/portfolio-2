@@ -46,10 +46,6 @@ $textColor: #b3b3b3;
     }
 
     button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
       height: 60px;
       width: 230px;
       cursor: pointer;
@@ -58,6 +54,14 @@ $textColor: #b3b3b3;
       color: #00d2df;
       background-color: transparent;
       border: 1px solid #00d2df;
+
+      a {
+        color: #00d2df;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
 
       &:hover {
         background-color: rgba(#00d2df, 0.2);

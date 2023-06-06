@@ -387,10 +387,15 @@
   .containerProjects {
     .boxProjetos {
       grid-template-columns: repeat(1, 1fr);
+      gap: 60px;
 
       .boxPro {
         &:hover {
           transform: scale(1.05);
+        }
+        cursor: pointer;
+        .boxButton {
+          transform: scaleY(1);
         }
       }
       .projeto {
@@ -407,14 +412,29 @@
 
   .modal {
     width: 90%;
+    max-height: 95%;
+    overflow: auto;
     padding: 20px;
     gap: 25px;
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: none;
+
+    /* SCROLL */
+    &::-webkit-scrollbar {
+      width: 7px;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+    }
+    /* END SCROLL */
 
     .containerLeft {
       gap: 30px;
       width: 100%;
+      // overflow: auto;
 
       .boxButtonProject {
         // flex-direction: column;

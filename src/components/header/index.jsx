@@ -9,6 +9,10 @@ import GifProgramador from "../../assets/Programming.gif";
 import "../../style/header.scss";
 
 export const Header = () => {
+  function entrarLink(link) {
+    window.open(link, "_blank");
+  }
+
   return (
     <header id="home" className="header">
       <div className="containerInfo">
@@ -29,11 +33,18 @@ export const Header = () => {
         </h1>
 
         <div className="boxButton">
-          <button>
+          <button
+            onClick={() =>
+              entrarLink("https://www.linkedin.com/in/vitor-silva-santos/")
+            }
+          >
             <img src={IconLinkedin} alt="icone do linkedin" />
             Linkedin
           </button>
-          <button>
+
+          <button
+            onClick={() => entrarLink("https://github.com/vitor-silva-santos")}
+          >
             <img src={IconGitHub} alt="icone do github" />
             GitHub
           </button>

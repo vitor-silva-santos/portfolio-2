@@ -26,12 +26,17 @@ export const AboutMe = () => {
           </p>
         </div>
         <button>
-          <img
-            className="iconDownload"
-            src={ImgDownload}
-            alt="icone de download"
-          />
-          Baixar Currículo
+          <a
+            href="curriculo/Vitor-Silva-Santos-Curriculo.pdf"
+            download={"Curriculo - Vitor Silva"}
+          >
+            <img
+              className="iconDownload"
+              src={ImgDownload}
+              alt="icone de download"
+            />
+            Baixar Currículo
+          </a>
         </button>
       </div>
     </section>

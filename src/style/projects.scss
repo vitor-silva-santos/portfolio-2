@@ -166,6 +166,20 @@
   min-height: 70%;
   display: flex;
   gap: 30px;
+  max-height: 95%;
+  overflow: auto;
+
+  /* SCROLL */
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+  }
+  /* END SCROLL */
 
   .containerLeft {
     display: flex;
@@ -412,32 +426,30 @@
 
   .modal {
     width: 90%;
-    max-height: 95%;
+    // max-height: 95%;
     overflow: auto;
     padding: 20px;
     gap: 25px;
     flex-direction: column-reverse;
     justify-content: none;
 
-    /* SCROLL */
-    &::-webkit-scrollbar {
-      width: 7px;
-    }
-    &::-webkit-scrollbar-track {
-      background-color: transparent;
-    }
-    &::-webkit-scrollbar-thumb {
-      border-radius: 5px;
-    }
-    /* END SCROLL */
+    // /* SCROLL */
+    // &::-webkit-scrollbar {
+    //   width: 7px;
+    // }
+    // &::-webkit-scrollbar-track {
+    //   background-color: transparent;
+    // }
+    // &::-webkit-scrollbar-thumb {
+    //   border-radius: 5px;
+    // }
+    // /* END SCROLL */
 
     .containerLeft {
       gap: 30px;
       width: 100%;
-      // overflow: auto;
 
       .boxButtonProject {
-        // flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;

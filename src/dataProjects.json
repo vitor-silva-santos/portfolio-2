@@ -1,5 +1,30 @@
 [
   {
+    "title": "Conversor de Moeda",
+    "photo": "image/projectsImages/conversorMoeda2-project.png",
+    "description": "Este projeto foi feito com o intuito de melhorar o primeiro conversor que eu havia feito, o Convesor de Real. Projeto feito do zero, foi utilizado o React para desenvolvimento e para a estilização o styled-components junto com o MUI nos inputs e selects. A aplicação pega o valor em tempo real utilizando a API da AwesomeAPI e retorna a conversão para a moeda selecionada. O gráfico foi feito com o ApexCharts e mostra a variação da moeda selecionada nos ultimos 3 meses.",
+    "url": "https://conversor-de-moeda-by-vitor.netlify.app/",
+    "repositorio": "https://github.com/vitor-silva-santos/currency-converter2.0",
+    "skills": [
+      {
+        "name": "React",
+        "url": "image/iconsSkills/react.png"
+      },
+      {
+        "name": "JavaScript",
+        "url": "image/iconsSkills/js.png"
+      },
+      {
+        "name": "Styled Components",
+        "url": "image/iconsSkills/styledComponents.png"
+      },
+      {
+        "name": "Mui",
+        "url": "image/iconsSkills/mui.png"
+      }
+    ]
+  },
+  {
     "title": "Instagram",
     "photo": "image/projectsImages/instagram-project.png",
     "description": "Este projeto foi feito com o intuito de aprimorar as habilidade no Front-end utilizando React.js, para estilização foi usado a biblioteca styled-components e foi trabalhado também no projeto a organização das pastas, ele foi feito no devClub com o professor Pedro. No projeto foi utilizado a api da PEXELS para pegar as imagens e usar como publicação.",
@@ -63,7 +88,7 @@
     ]
   },
   {
-    "title": "Conversor de Moeda",
+    "title": "Conversor de Real",
     "photo": "image/projectsImages/convertMoney-project.png",
     "description": "Esse projeto foi feito com o intuito de melhorar técnicas com JavaScript. O conversor no momento utiliza os valores das moedas de forma manual.",
     "url": "https://vitor-silva-santos.github.io/real-converter/",

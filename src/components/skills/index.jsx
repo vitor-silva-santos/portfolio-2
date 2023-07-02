@@ -8,6 +8,7 @@ import Node from "../../assets/icons/node-js.png";
 import Sass from "../../assets/icons/sass.png";
 import ReactIcon from "../../assets/icons/react.png";
 import StyledComponents from "../../assets/icons/styledComponents.png";
+import Mui from "../../assets/icons/mui.png";
 
 export const Skills = () => {
   return (
@@ -53,6 +54,11 @@ export const Skills = () => {
         <div className="skill">
           <p className="nameSkill">Styled Components</p>
           <img src={StyledComponents} alt="logo do Styled Components" />
+        </div>
+
+        <div className="skill">
+          <p className="nameSkill">Material UI</p>
+          <img src={Mui} alt="logo do Mui" />
         </div>
       </div>
     </section>
